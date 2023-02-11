@@ -55,7 +55,6 @@ class Vehicle1:
 
 pass
 
-#15
 class Car1(Vehicle1):
     @classmethod
     def seating_capacity(cls):
@@ -71,7 +70,7 @@ print('Color:', car1.color, 'Vehicle name:', car1.name, 'Speed:', car1.max_speed
 
 pass
 
-#16
+
 class Vehicle:
     def __init__(self, name, mileage, capacity):
         self.name = name
@@ -87,7 +86,7 @@ class Bus3(Vehicle):
 School_bus = Bus3("School Volvo", 12, 50)
 print("Total Bus fare is:", School_bus.fare())
 
-#17
+
 class Vehicle:
     def __init__(self, name, mileage, capacity, tires):
         self.name = name
